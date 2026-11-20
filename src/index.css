@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+    transition: font-size 0.2s ease-in-out;
+  }
+  html.large-text {
+    font-size: 19px;
+  }
+  body {
+    font-family: 'Cairo', 'Inter', sans-serif;
+  }
+}
+
+.leaflet-container {
+  z-index: 10;
+}
